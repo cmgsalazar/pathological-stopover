@@ -89,8 +89,8 @@ a {
   margin: 50px;
 
   img {
-    width: 200px;
-    height: auto;
+    width: auto;
+    height: 150px;
   }
 
   h2 {
@@ -119,6 +119,23 @@ footer {
   .content {
     padding-left: 0.5em;
     padding-right: 0.5em;
+  }
+
+  .byline {
+    margin-left: auto;
+  }
+
+  .first-graf::first-letter {
+    margin-left: -20px;
+    line-height: 0.8;
+  }
+
+  footer {
+    font-size: 0.8rem;
+    margin: auto;
+    padding: 20px 50px;
+    font-weight: 300;
+    text-align: left;
   }
 }
 
